@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Cabecera -->
+    <header>
+        <h1>Mi Tienda Online</h1>
+    </header>
+
+    <!-- Productos -->
+    <main>
+        <section class="producto">
+            <img src="producto1.jpg" alt="Producto 1">
+            <h2>Producto 1</h2>
+            <p>$10.00</p>
+            <button class="btn-add-to-cart" data-id="1" data-nombre="Producto 1" data-precio="10.00">Añadir al carrito</button>
+        </section>
+
+        <section class="producto">
+            <img src="producto2.jpg" alt="Producto 2">
+            <h2>Producto 2</h2>
+            <p>$20.00</p>
+            <button class="btn-add-to-cart" data-id="2" data-nombre="Producto 2" data-precio="20.00">Añadir al carrito</button>
+        </section>
+
+        <section class="producto">
+            <img src="producto3.jpg" alt="Producto 3">
+            <h2>Producto 3</h2>
+            <p>$30.00</p>
+            <button class="btn-add-to-cart" data-id="3" data-nombre="Producto 3" data-precio="30.00">Añadir al carrito</button>
+        </section>
+    </main>
+
+    <!-- Carrito -->
+    <section id="productos-carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito">
+            <!-- Los productos se añadirán aquí dinámicamente -->
+        </ul>
+        <p id="total">Total: $0.00</p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Mi Tienda Online</p>
+    </footer>
+
+    <!-- Enlace a tu archivo de JavaScript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
